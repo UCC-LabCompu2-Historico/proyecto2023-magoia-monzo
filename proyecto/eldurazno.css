@@ -1,0 +1,11 @@
+body {
+    background-image: url('imagenes/imagenfondo.jpg');
+    background-size: cover;
+    color: white;
+    max-width: 100%;
+
+}
+body img {
+    max-width: 100%;
+    border: 2px solid black;
+}

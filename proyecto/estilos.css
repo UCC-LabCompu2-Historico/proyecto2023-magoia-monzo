@@ -1,0 +1,83 @@
+body {
+    background-image: url('imagenes/imagenfondo.jpg');
+    background-size: cover;
+
+}
+.encabezado {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+nav {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: 2px solid black;
+}
+
+nav img {
+    display: block;
+    margin: 0 auto;
+}
+
+nav p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+nav img, nav p {
+    margin-top: 10px;
+}
+section {
+    margin-top: 50px;
+    text-align: center;
+    color: green;
+    background-color: #359169;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+select {
+    font-size: 18px;
+    padding: 5px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    border: 2px solid black;
+
+}
+
+h1 {
+    background-color: yellow;
+}
+header h2 {
+    color: black;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
