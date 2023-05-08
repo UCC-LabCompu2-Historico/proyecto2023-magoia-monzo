@@ -1,14 +1,63 @@
 body {
-    background-image: url('imagenes/imagenfondo.jpg');
+    background: rgba(225, 225, 225, 0.83);
     background-size: cover;
-    color: white;
+    color: #000000;
     max-width: 100%;
-    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
 
 }
 body img {
-    width: 100%;
+    max-width: 50%;
+    display: block;
+
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+    background: linear-gradient(to right, #f6a546, #fad287);
+    border-radius: 10px;
+}
+
+#section{
+    font-size: 25px;
+    padding: 10px;
+    margin: 0 auto;
     height: auto;
-    max-width: 800px;
-    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.contenedor{
+    display: flex;
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+#aside {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    text-align-all: center;
+    font-size: 18px;
+    padding: 6px;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+}
+.button {
+    margin-bottom: 0;
+    text-align: center;
+    padding: 5px;
+    background-color: #cdd9ef;
+    color: white;
+    border: 2px solid rgba(231, 204, 79, 0.67);
+    border-radius: 12px;
+    font-size: 20px;
+    text-transform: lowercase;
 }

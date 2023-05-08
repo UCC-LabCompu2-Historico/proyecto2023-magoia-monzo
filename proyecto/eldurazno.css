@@ -1,11 +1,63 @@
 body {
-    background-image: url('imagenes/imagenfondo.jpg');
+    background: rgba(225, 225, 225, 0.83);
     background-size: cover;
-    color: white;
+    color: #000000;
     max-width: 100%;
+    font-family: Tahoma;
+    font-palette: dark;
 
 }
 body img {
-    max-width: 100%;
-    border: 2px solid black;
+    max-width: 50%;
+    display: block;
+
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+
+}
+
+
+.button{
+    margin-bottom: 0;
+    text-align: center;
+    padding: 5px;
+    background-color: #8ebcf6;
+    color: white;
+    border: 2px solid #698cd9;
+    border-radius: 12px;
+    font-size: 20px;
+    text-transform: lowercase;
+
+}
+
+.title{
+    text-align: center;
+    background: linear-gradient(to right, #f6a546, #fad287);
+    border-radius: 10px;
+}
+
+#section{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+
+    height: auto;
+    border-radius: 5px;
+}
+
+.contenedor{
+    display: flex;
+    padding: 35px;
+    font-size: 22px;
+}
+#div{
+    font-family: Tahoma;
+    text-align-all: center;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 15px;
 }
