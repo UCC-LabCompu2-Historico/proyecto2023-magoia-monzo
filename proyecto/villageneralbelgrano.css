@@ -7,6 +7,7 @@ body {
     font-family: 'Roboto Slab', serif;
     font-palette: dark;
 }
+
 body img {
     display: block;
     border-radius: 5px;
@@ -22,7 +23,7 @@ body img {
     border-radius: 10px;
 }
 
-#section{
+#section {
 
     font-size: 25px;
     padding: 5px;

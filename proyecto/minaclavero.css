@@ -8,6 +8,7 @@ body {
     font-palette: dark;
 
 }
+
 body img {
     max-width: 50%;
     display: block;
@@ -25,7 +26,7 @@ body img {
     border-radius: 10px;
 }
 
-#section{
+#section {
 
     font-size: 25px;
     padding: 5px;
@@ -34,7 +35,7 @@ body img {
     border-radius: 5px;
 }
 
-.contenedor{
+.contenedor {
     display: flex;
     padding: 5px;
     font-size: 25px;
@@ -42,7 +43,7 @@ body img {
 
 }
 
-#aside{
+#aside {
     font-family: 'Kanit', sans-serif;
     font-family: 'Roboto Slab', serif;
     text-align-all: center;
@@ -50,6 +51,7 @@ body img {
     padding: 6px;
     margin-left: 15px;
 }
+
 .button {
     margin-bottom: 0;
     text-align: center;
@@ -62,12 +64,12 @@ body img {
     text-transform: lowercase;
 }
 
-#body{
+#body {
     font-family: 'Kanit', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
 
-img{
+img {
     width: 25%;
     height: 25%;
 }

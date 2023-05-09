@@ -6,8 +6,13 @@
     grid-row-gap: 0px;
 }
 
-.div1 { grid-area: 1 / 1 / 2 / 2;}
-.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
 
 
 body {
@@ -19,10 +24,11 @@ body {
     line-height: 1.5;
 
 }
-.div2{
+
+.div2 {
     padding: 100px;
     text-align: center;
-    font-size:30px;
+    font-size: 30px;
     padding-top: 25px;
 
 }
@@ -45,12 +51,13 @@ body {
     float: right;
 }
 
-.title{
+.title {
     background: linear-gradient(to right, #f6a546, #fad287);
     font-family: 'Kanit', sans-serif;
     font-family: 'Roboto Slab', serif;
     text-align: center;
 }
+
 .button {
     margin-bottom: 0;
     text-align: center;

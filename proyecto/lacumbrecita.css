@@ -8,6 +8,7 @@ body {
 
 
 }
+
 body img {
     max-width: 50%;
     display: block;
@@ -23,7 +24,7 @@ body img {
     border-radius: 10px;
 }
 
-#section{
+#section {
     font-size: 25px;
     padding: 10px;
     margin: 0 auto;
@@ -31,7 +32,7 @@ body img {
     border-radius: 10px;
 }
 
-.contenedor{
+.contenedor {
     display: flex;
     padding: 10px;
     font-size: 25px;
@@ -46,10 +47,11 @@ body img {
     padding: 6px;
 }
 
-img{
+img {
     width: 30%;
     height: 30%;
 }
+
 .button {
     margin-bottom: 0;
     text-align: center;

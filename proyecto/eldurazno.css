@@ -7,6 +7,7 @@ body {
     font-palette: dark;
 
 }
+
 body img {
     max-width: 50%;
     display: block;
@@ -18,7 +19,7 @@ body img {
 }
 
 
-.button{
+.button {
     margin-bottom: 0;
     text-align: center;
     padding: 5px;
@@ -31,13 +32,13 @@ body img {
 
 }
 
-.title{
+.title {
     text-align: center;
     background: linear-gradient(to right, #f6a546, #fad287);
     border-radius: 10px;
 }
 
-#section{
+#section {
     font-family: 'Kanit', sans-serif;
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
@@ -49,12 +50,13 @@ body img {
     border-radius: 5px;
 }
 
-.contenedor{
+.contenedor {
     display: flex;
     padding: 35px;
     font-size: 22px;
 }
-#div{
+
+#div {
     font-family: Tahoma;
     text-align-all: center;
     font-size: 15px;
