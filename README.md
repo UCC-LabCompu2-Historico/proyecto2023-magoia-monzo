@@ -20,7 +20,7 @@ Tecnologias usadas: HTML-CSS.
 - [✓] La página principal debe llamarse index
 - [✓] Identar correctamente el código (en Webstorm Ctrl+Alt+L)
 - [✓] No debe haber errores presentes (realizar *Code* > *Inspect Code* para verificar que no haya errores)
-- [ ] Se debe emplear algún favicon
+- [✓] Se debe emplear algún favicon
 - [✓] Emplear alguna fuente de google fonts o subir al proyecto alguna fuente externa
 - [✓] Debe haber navegación entre todas las páginas
 
@@ -47,9 +47,9 @@ Tecnologias usadas: HTML-CSS.
 - [✓] No emplear !important
 
 ### Sobre Accesibilidad:
-- [ ] Toda imagen debe tener su etiqueta alt
-- [ ] Todo ```<input>``` o ```<select>``` debe tener su ```<label>```
-- [ ] Los labels deben contener el atributo **for** (el for debe contener el id del input al cual se referencia) 
+- [✓] Toda imagen debe tener su etiqueta alt
+- [✓] Todo ```<input>``` o ```<select>``` debe tener su ```<label>```
+- [✓] Los labels deben contener el atributo **for** (el for debe contener el id del input al cual se referencia) 
 - [✓] Si hay una tabla en la página, debe contener ```<caption></caption>```
 
 ### Sobre las correcciones
