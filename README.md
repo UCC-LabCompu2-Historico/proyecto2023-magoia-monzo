@@ -2,6 +2,11 @@
 Estructura de Proyecto Lab de Compu II - 2023
 
 ## Requisitos del Primer Parcial
+Titulo del proyecto: Turisteando
+Autores: Ignacio Magoia- Vicente Monzo
+Contenido de la pagina: Esta pagina presenta los mejores lugares para visitar o conocer de la provincia de cordoba, muestra algunas fotos de estos lugares con alguna informacion para tener en cuenta.
+Tecnologias usadas: HTML-CSS.
+
 
 ### Sobre el Repositorio
 - [ ] El proyecto debe estar subido al repositorio adecuado "Proyecto2023-ApellidoAlumno1-ApellidoAlumno2"
