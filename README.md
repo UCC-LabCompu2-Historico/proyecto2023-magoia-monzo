@@ -6,6 +6,7 @@ Titulo del proyecto: Turisteando
 Autores: Ignacio Magoia- Vicente Monzo
 Contenido de la pagina: Esta pagina presenta los mejores lugares para visitar o conocer de la provincia de cordoba, muestra algunas fotos de estos lugares con alguna informacion para tener en cuenta.
 Tecnologias usadas: HTML-CSS.
+Link para entrar a la pagina: https://ucc-labcompu2.github.io/proyecto2023-magoia-monzo/proyecto/
 
 
 ### Sobre el Repositorio
