@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <link rel="stylesheet" href="estilos.css" type="text/css">
     <meta charset="UTF-8">
+    <meta content="IGNACIO MAGIO / VICENTE MONZO" name="author">
+    <meta content="viajes, turismo, argentina" name="keywords">
     <title>Turisteando</title>
     <link rel="icon" type="image/png" href="imagenes/logo.png">
     <meta name="viewport">
+    <script type="text/javascript" src="funciones.js"></script>
     <nav>
         <img src="imagenes/logo.png" width="150" height="100" alt="imagen del logo">
         <button class="button"><a href="quienessomos.html" target="_blank">Quienes somos?</a></button>
+        <button class="button"><a href="registrarse.html" target="_blank">Registrarse</a></button>
     </nav>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Roboto+Slab&display=swap"
           rel="stylesheet">
 </head>
-<body>
-<canvas>
-
-</canvas>
+<body id="bodyprincpipal">
+<canvas id="turismoCanvas"></canvas>
+<script src="canvas.js"></script>
 <main>
     <section class="section2">
         <header>
@@ -42,6 +46,28 @@
             </select>
         </form>
     </section>
+
+
+
+    <h1>Calculadora de precios</h1>
+
+    <form id="precioForm">
+        <label for="mayores">Cantidad de MAYORES:</label>
+        <input type="number" id="mayores" name="mayores" min="0">
+
+        <label for="menores">Cantidad de MENORES:</label>
+        <input type="number" id="menores" name="menores" min="0">
+
+        <label for="grupo">Cantidad de COMBO FAMILIAR:</label>
+        <input type="number" id="grupo" name="grupo" min="0">
+
+        <button type="button" onclick="calcularTotal()">Calcular</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <button onclick="dibujarPersonas()">Dibujar Personas</button>
+    <canvas id="myCanvas" width="800" height="400"></canvas>
 
     <div class="parent">
         <div class="div1">

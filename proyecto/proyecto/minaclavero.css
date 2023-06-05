@@ -1,0 +1,14 @@
+body {
+    background-image: url('imagenes/imagenfondo.jpg');
+    background-size: cover;
+    color: white;
+    max-width: 100%;
+    font-size: 20px;
+
+}
+body img {
+    width: 100%; /* hace que las imágenes ocupen el ancho completo de su contenedor */
+    height: auto; /* ajusta automáticamente la altura de las imágenes para mantener su proporción */
+    max-width: 800px;
+    border: 2px solid black;
+}
