@@ -6,7 +6,10 @@ Contenido: Esta es una pagina de turismo, principalmente de la Provincia de Cord
 en ella encontraran algunos lugares que nosotros consideramos los mas agradables para visitar, dentro de ellos encontraran imagenes
 y informacion de ese lugar y en la pagina principal encontraran una algunas descripciones y un apartado para calcular el valor 
 aproximado del viaje.
-Link de la pagina:
+
+Link de la pagina:[https://ucc-labcompu2.github.io/proyecto2023-magoia-monzo/proyecto/](https://ucc-labcompu2.github.io/proyecto2023-magoia-monzo/proyecto/)
+
+
 ## Requisitos del Primer Parcial
 
 ### Sobre el Repositorio
