@@ -1,0 +1,268 @@
+#bodyprincpipal {
+    background: linear-gradient(to right, rgba(11, 37, 239, 0.65), rgba(76, 121, 157, 0.75));
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+.encabezado {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+nav {
+    padding: 5px;
+    background-color: rgba(220, 220, 220, 0.47);
+    border: 2px solid #698cd9;
+    border-radius: 12px;
+}
+
+nav img {
+    display: block;
+    margin: 0 auto;
+}
+
+nav p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+nav img, nav p {
+    margin-top: 10px;
+}
+.section1{
+
+    text-align: center;
+    padding: 5px;
+    padding-block: 10px;
+    border-radius: 14px;
+
+
+}
+
+.section2 {
+    margin-top: 40px;
+    text-align: center;
+    color: #5d5959;
+    background-color: #ffffff;
+    border: 2px solid rgba(0, 0, 0, 0);
+    padding: 10px;
+    margin: 80px;
+    border-radius: 14px;
+
+
+}
+
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+select {
+    font-size: 18px;
+    padding: 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    margin-block-end: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    background: linear-gradient(to right, #6589d5, rgba(160, 213, 241, 0.68));
+
+
+}
+
+h1 {
+    background-color: rgba(66, 78, 210, 0.16);
+}
+header h2 {
+    color: black;
+    font-size: 1rem;
+/text-shadow: 1px 1px 1px rgb(93, 89, 89);/
+}
+button {
+    border: 1px solid #fafafa;
+    padding: 10px;
+    background-color: #c8d9ff;
+    color: #a0d5f1;
+    text-transform: uppercase;
+    font-family: Tahoma;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.video {
+    position: relative;
+}
+
+.button{
+    margin: 10px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2;}
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+
+
+a:hover{
+    color: purple;
+    font-size: 15px;
+}
+
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 30px;
+}
+.div2{
+    padding: 20px;
+    text-align: center;
+    font-size:30px;
+    padding-top: 25px;
+    background:whitesmoke ;
+    border-radius: 20px;
+
+}
+
+body img {
+    max-width: 50%;
+    display: block;
+
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.title{
+    text-align: center;
+    background: linear-gradient(to right, #f6a546, #fad287);
+    border-radius: 10px;
+}
+
+body {
+    background: rgba(225, 225, 225, 0.83);
+    background-size: cover;
+    color: #000000;
+    max-width: 100%;
+    font-family: Tahoma;
+    font-palette: dark;
+
+}
+
+#section{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+
+    height: auto;
+    border-radius: 5px;
+}
+
+#aside{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    text-align-all: center;
+    font-size: 18px;
+    padding: 6px;
+    margin-left: 15px;
+}
+
+.contenedor{
+    display: flex;
+    padding: 5px;
+    font-size: 25px;
+
+
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+
+
+}
+#bodynosotros {
+    background: linear-gradient(to right, #6589d5, lightskyblue);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5;
+
+}
+
+#divnosotros2{
+    padding: 100px;
+    text-align: center;
+    font-size:30px;
+    padding-top: 25px;
+
+}
+
+#quienessomos{
+    font-size: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    width: 300px;
+}
+input {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: #26b2b2;
+}
+
+#turismoCanvas {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#turismoCanvas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
