@@ -1,10 +1,13 @@
 
 /**
- * Dibuja a los grupos de personas de acuerdo a los valores ingresados.
- * @method dibujarPersonas/
- * @param {string} No tiene parametros de entrada.
- * @return No retorna ningun valor.
+ * Calcula el costo aproximado de un viaje en base a la cantidad de personas mayores, menores y de un grupo.
+ * @method calcularTotal
+ * @param {string} cantidadMayores - La cantidad de personas mayores.
+ * @param {string} cantidadMenores - La cantidad de personas menores.
+ * @param {string} cantidadGrupo - La cantidad de personas en el grupo.
+ * @return {string} Retorna el costo aproximado del viaje en formato de texto.
  */
+
 function calcularTotal() {
     var cantidadMayores = parseInt(document.getElementById("mayores").value);
     var cantidadMenores = parseInt(document.getElementById("menores").value);
@@ -38,14 +41,6 @@ function calcularTotal() {
     resultado.textContent = "COSTO APROXIMADO DEL VIAJE: $" + total;
 }
 
-/**
- * Calcula el costo aproximado de un viaje en base a la cantidad de personas mayores, menores y de un grupo.
- * @method calcularTotal
- * @param {string} cantidadMayores - La cantidad de personas mayores.
- * @param {string} cantidadMenores - La cantidad de personas menores.
- * @param {string} cantidadGrupo - La cantidad de personas en el grupo.
- * @return {string} Retorna el costo aproximado del viaje en formato de texto.
- */
 
 document.getElementById("registroForm").addEventListener("submit", function(event) {
     var nombre = document.getElementById("nombre").value.trim();
