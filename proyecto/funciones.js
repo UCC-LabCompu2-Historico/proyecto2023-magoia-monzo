@@ -6,9 +6,9 @@
  * @return No retorna ningun valor.
  */
 function calcularTotal() {
-    var cantidadMayores = parseInt(document.getElementById("mayores").value);
-    var cantidadMenores = parseInt(document.getElementById("menores").value);
-    var cantidadGrupo = parseInt(document.getElementById("grupo").value);
+    const cantidadMayores = parseInt(document.getElementById("mayores").value);
+    const cantidadMenores = parseInt(document.getElementById("menores").value);
+    const cantidadGrupo = parseInt(document.getElementById("grupo").value);
 
     if (isNaN(cantidadMayores) || cantidadMayores < 0) {
         alert('Por favor, ingresa una cantidad válida de personas mayores.');
@@ -28,13 +28,13 @@ function calcularTotal() {
         return;
     }
 
-    var totalMayores = cantidadMayores * 10000;
-    var totalMenores = cantidadMenores * 5000;
-    var totalGrupo = cantidadGrupo * 15000;
+    const totalMayores = cantidadMayores * 10000;
+    const totalMenores = cantidadMenores * 5000;
+    const totalGrupo = cantidadGrupo * 15000;
 
-    var total = totalMayores + totalMenores + totalGrupo;
+    const total = totalMayores + totalMenores + totalGrupo;
 
-    var resultado = document.getElementById("resultado");
+    const resultado = document.getElementById("resultado");
     resultado.textContent = "COSTO APROXIMADO DEL VIAJE: $" + total;
 }
 
@@ -48,14 +48,14 @@ function calcularTotal() {
  */
 
 document.getElementById("registroForm").addEventListener("submit", function(event) {
-    var nombre = document.getElementById("nombre").value.trim();
-    var apellido = document.getElementById("apellido").value.trim();
-    var direccion = document.getElementById("direccion").value.trim();
-    var email = document.getElementById("email").value.trim();
-    var contrasena = document.getElementById("password").value;
+    const nombre = document.getElementById("nombre").value.trim();
+    const apellido = document.getElementById("apellido").value.trim();
+    const direccion = document.getElementById("direccion").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const contrasena = document.getElementById("password").value;
 
     // Validar el nombre y el apellido (solo letras y espacios)
-    var nombreRegExp = /^[a-zA-Z\s]+$/;
+    const nombreRegExp = /^[a-zA-Z\s]+$/;
     if (!nombreRegExp.test(nombre)) {
         alert("Por favor, ingresa un nombre válido.");
         event.preventDefault();
@@ -75,7 +75,7 @@ document.getElementById("registroForm").addEventListener("submit", function(even
     }
 
     // Validar el formato del correo electrónico
-    var emailRegExp = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailRegExp = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegExp.test(email)) {
         alert("Por favor, ingresa un correo electrónico válido.");
         event.preventDefault();
@@ -89,28 +89,28 @@ document.getElementById("registroForm").addEventListener("submit", function(even
 /**
  * Dibuja a los grupos de personas de acuerdo a los valores ingresados.
  * @method dibujarPersonas
- * @param {string} No tiene parámetros de entrada
- * @return No retorna ningún valor
+ * 
+ * @return void
  */
 
 function dibujarPersonas() {
-    var cantidadMayores = parseInt(document.getElementById("mayores").value);
-    var cantidadMenores = parseInt(document.getElementById("menores").value);
-    var cantidadGrupo = parseInt(document.getElementById("grupo").value);
+   const cantidadMayores = parseInt(document.getElementById("mayores").value);
+    const cantidadMenores = parseInt(document.getElementById("menores").value);
+    const cantidadGrupo = parseInt(document.getElementById("grupo").value);
 
     if (isNaN(cantidadMayores) || isNaN(cantidadMenores) || isNaN(cantidadGrupo) || cantidadMayores < 0 || cantidadMenores < 0 || cantidadGrupo < 0) {
         alert('Por favor, ingresa valores válidos en todos los campos.');
         return;
     }
 
-    var canvas = document.getElementById("myCanvas");
-    var ctx = canvas.getContext("2d");
-    var posX = 50; // Posición inicial en X
-    var posY = 50; // Posición inicial en Y
-    var espacioEntrePersonas = 100; // Espacio entre cada persona
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+    let posX = 50; // Posición inicial en X
+    let posY = 50; // Posición inicial en Y
+    const espacioEntrePersonas = 100; // Espacio entre cada persona
 
     // Dibujar personas mayores
-    for (var i = 0; i < cantidadMayores; i++) {
+    for (let i = 0; i < cantidadMayores; i++) {
         ctx.beginPath();
         ctx.arc(posX, posY, 25, 0, 2 * Math.PI); // Cabeza
         ctx.moveTo(posX, posY + 25);
@@ -132,7 +132,7 @@ function dibujarPersonas() {
     posY += espacioEntrePersonas;
 
     // Dibujar personas menores
-    for (var j = 0; j < cantidadMenores; j++) {
+    for (let j = 0; j < cantidadMenores; j++) {
         ctx.beginPath();
         ctx.arc(posX, posY, 20, 0, 2 * Math.PI); // Cabeza
         ctx.moveTo(posX, posY + 20);
@@ -154,7 +154,7 @@ function dibujarPersonas() {
     posY += espacioEntrePersonas;
 
     // Dibujar personas del grupo
-    for (var k = 0; k < cantidadGrupo; k++) {
+    for (let k = 0; k < cantidadGrupo; k++) {
         ctx.beginPath();
         ctx.arc(posX, posY, 30, 0, 2 * Math.PI); // Cabeza
         ctx.moveTo(posX, posY + 30);

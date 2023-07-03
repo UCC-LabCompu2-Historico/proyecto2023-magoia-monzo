@@ -1,19 +1,16 @@
-/**
- * Configura y anima una imagen de turismo en un canvas.
- * @method animate
- */
-var canvas = document.getElementById("turismoCanvas");
-var ctx = canvas.getContext("2d");
+//obtiene canvas desde DOM
+const canvas = document.getElementById("turismoCanvas");
+const ctx = canvas.getContext("2d");
 
 // Definir las propiedades de la animación
-var y = -canvas.height; // Posición inicial en el eje y (fuera del canvas)
-var speed = 2; // Velocidad de movimiento
-var image = new Image();
+let y = -canvas.height; // Posición inicial en el eje y (fuera del canvas)
+const speed = 2; // Velocidad de movimiento
+const image = new Image();
 image.src = "imagenes/turismo2.jpg"; // Ruta de la imagen
 
 // Tamaño deseado para la imagen
-var imageWidth = window.innerWidth * 0.9; // Ajusta el valor según el ancho deseado
-var imageHeight = 100; // Ajusta el valor según el tamaño deseado
+let imageWidth = window.innerWidth * 0.9; // Ajusta el valor según el ancho deseado
+let imageHeight = 100; // Ajusta el valor según el tamaño deseado
 
 // Cargar la imagen
 image.onload = function() {
@@ -24,6 +21,7 @@ image.onload = function() {
 /**
  * Función para animar el objeto de turismo en el canvas.
  * @method animate
+ * @returns void
  */
 function animate() {
     // Limpiar el canvas
