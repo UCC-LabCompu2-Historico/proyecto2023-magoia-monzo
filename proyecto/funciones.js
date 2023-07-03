@@ -47,7 +47,7 @@ function calcularTotal() {
  * @return {string} Retorna el costo aproximado del viaje en formato de texto.
  */
 
-document.getElementById("registroForm").addEventListener("submit", function(event) {
+document.getElementById("registroForm")?.addEventListener("submit", function(event) {
     const nombre = document.getElementById("nombre").value.trim();
     const apellido = document.getElementById("apellido").value.trim();
     const direccion = document.getElementById("direccion").value.trim();
